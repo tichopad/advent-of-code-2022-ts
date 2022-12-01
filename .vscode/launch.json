@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "request": "launch",
+      "name": "Launch Deno Program",
+      "type": "node",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "runtimeExecutable": "${userHome}/.deno/bin/deno",
+      "runtimeArgs": ["run", "--unstable", "--inspect-brk", "--allow-all"],
+      "attachSimplePort": 9229
+    }
+  ]
+}
